@@ -7,7 +7,7 @@
     "socket.io": "^1.7.3"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "devDependencies": {
     "express-handlebars": "^3.0.0"

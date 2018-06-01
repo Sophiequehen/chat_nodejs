@@ -2,8 +2,16 @@
   	margin: 0; padding: 0; box-sizing: border-box; 
   }
 
+  html{
+    background: #293133;
+  }
+
   body {
-  	font: 13px Helvetica, Arial; 
+    background: white;
+    width:50%;
+    margin: auto;
+    height: 100vh;
+    font: 13px Helvetica, Arial; 
   }
 
   form {
@@ -11,7 +19,7 @@
   	padding: 3px; 
   	position: fixed; 
   	bottom: 0; 
-  	width: 100%; 
+    width: 50%;
   }
 
   form input {
@@ -38,6 +46,7 @@
   	padding: 5px 10px; 
   }
 
-  #messages li:nth-child(odd) {
-  	background: #eee; 
+  .mes-messages{
+  	background: #00BFFF; 
+    text-align: right;
   }
